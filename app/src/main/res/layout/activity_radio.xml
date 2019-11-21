@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RadioGroup  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose a color" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:onClick="setRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="red" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:onClick="setGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="green" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:onClick="setBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="blue" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gotoMenu"
+        android:text="@string/menu" />
+</RadioGroup>

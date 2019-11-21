@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Widgets</string>
+    <string name="desc">TODO</string>
+    <string name="button">Bottom Text</string>
+    <string name="button1">Radio Groups</string>
+    <string name="button2">Buttons</string>
+    <string name="button3">URL demo(RL)</string>
+    <string name="button4">Overlap Buttons</string>
+    <string name="button5">URL demo(TL)</string>
+    <string name="button6">Scrollview</string>
+    <string name="bottom_text">Bottom Text</string>
+    <string name="menu">Menu</string>
+    <string name="url">URL:</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="url2">Input a URL</string>
+</resources>
